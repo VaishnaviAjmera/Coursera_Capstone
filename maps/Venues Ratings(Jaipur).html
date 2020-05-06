@@ -1,0 +1,2605 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_2b0253f7e75243589241135f919a1ae6 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_2b0253f7e75243589241135f919a1ae6" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_2b0253f7e75243589241135f919a1ae6 = L.map(
+                                  'map_2b0253f7e75243589241135f919a1ae6',
+                                  {center: [26.916194,75.820349],
+                                  zoom: 13,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_6ffdbbe0dff34be58260ec4bdf543462 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_2b0253f7e75243589241135f919a1ae6);
+        
+    
+
+            var marker_148b4329dfa14942b7f69c9e2b88b740 = L.marker(
+                [26.91,75.81],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_868d5f6feeba43fe8c2dc5510b178669 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_148b4329dfa14942b7f69c9e2b88b740.setIcon(icon_868d5f6feeba43fe8c2dc5510b178669);
+            
+    
+            var popup_27d91f90a6cc462184b0e1b8c42d643d = L.popup({maxWidth: '300'});
+
+            
+                var html_c698d80fabe84d8caf89e23327b8a932 = $('<div id="html_c698d80fabe84d8caf89e23327b8a932" style="width: 100.0%; height: 100.0%;">Nothing Before Coffee, Opposite Mahaveer College Gate 2, Mahaveer Marg, C Scheme</div>')[0];
+                popup_27d91f90a6cc462184b0e1b8c42d643d.setContent(html_c698d80fabe84d8caf89e23327b8a932);
+            
+
+            marker_148b4329dfa14942b7f69c9e2b88b740.bindPopup(popup_27d91f90a6cc462184b0e1b8c42d643d);
+
+            
+        
+    
+
+            var marker_6521e0d99b0349bf8b1b7bfedc838289 = L.marker(
+                [26.92,75.81],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_f0b47851dce045ea87a52c381b785ec3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6521e0d99b0349bf8b1b7bfedc838289.setIcon(icon_f0b47851dce045ea87a52c381b785ec3);
+            
+    
+            var popup_c3087634ad9040e39bbce3856ea317eb = L.popup({maxWidth: '300'});
+
+            
+                var html_2d7ab1de0d9b4dbe81a3edc8cc8f4179 = $('<div id="html_2d7ab1de0d9b4dbe81a3edc8cc8f4179" style="width: 100.0%; height: 100.0%;">The Doors, Khandaka Mansion, Near Raj Mandir Cinema, MI Road, Jaipur</div>')[0];
+                popup_c3087634ad9040e39bbce3856ea317eb.setContent(html_2d7ab1de0d9b4dbe81a3edc8cc8f4179);
+            
+
+            marker_6521e0d99b0349bf8b1b7bfedc838289.bindPopup(popup_c3087634ad9040e39bbce3856ea317eb);
+
+            
+        
+    
+
+            var marker_2837acb009304328bc63d3ee489bdfe6 = L.marker(
+                [26.9,75.81],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_a9868eaa8ca04d91a781718f11178b8f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2837acb009304328bc63d3ee489bdfe6.setIcon(icon_a9868eaa8ca04d91a781718f11178b8f);
+            
+    
+            var popup_62932c360cac44b08c7d78fca4c15094 = L.popup({maxWidth: '300'});
+
+            
+                var html_9761f6d90d85412d97ceb9fee2af6883 = $('<div id="html_9761f6d90d85412d97ceb9fee2af6883" style="width: 100.0%; height: 100.0%;">The Rajput Room - Rambagh Palace, Rambagh Palace, Bhawani Singh Road, C Scheme, Jaipur</div>')[0];
+                popup_62932c360cac44b08c7d78fca4c15094.setContent(html_9761f6d90d85412d97ceb9fee2af6883);
+            
+
+            marker_2837acb009304328bc63d3ee489bdfe6.bindPopup(popup_62932c360cac44b08c7d78fca4c15094);
+
+            
+        
+    
+
+            var marker_4870ebbe3a794fdfbde3f666321c6efa = L.marker(
+                [26.92,75.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_4919ed4c83764160a98fb8043dd7a5d0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4870ebbe3a794fdfbde3f666321c6efa.setIcon(icon_4919ed4c83764160a98fb8043dd7a5d0);
+            
+    
+            var popup_aa97a757fd6347cb9dd241db22244109 = L.popup({maxWidth: '300'});
+
+            
+                var html_061badaedb5c489a913cbc4a4a3cb86f = $('<div id="html_061badaedb5c489a913cbc4a4a3cb86f" style="width: 100.0%; height: 100.0%;">The Moustache Headquarters, 7, Park House, Near Ganpati Plaza, MI Road, Jaipur</div>')[0];
+                popup_aa97a757fd6347cb9dd241db22244109.setContent(html_061badaedb5c489a913cbc4a4a3cb86f);
+            
+
+            marker_4870ebbe3a794fdfbde3f666321c6efa.bindPopup(popup_aa97a757fd6347cb9dd241db22244109);
+
+            
+        
+    
+
+            var marker_c550cd077ed74c6dabc78724894c2e56 = L.marker(
+                [26.92,75.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_f27c304edf7e4c06b600bad6460f23f5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c550cd077ed74c6dabc78724894c2e56.setIcon(icon_f27c304edf7e4c06b600bad6460f23f5);
+            
+    
+            var popup_5525652ff44b44e784da706111c29902 = L.popup({maxWidth: '300'});
+
+            
+                var html_8a71e3f2c71043f0a8c38e244b8682dd = $('<div id="html_8a71e3f2c71043f0a8c38e244b8682dd" style="width: 100.0%; height: 100.0%;">Chitra Cafeteria, Arya Niwas Hotel, Behind Amber Towers, Sansar Chandra Road, Jaipur</div>')[0];
+                popup_5525652ff44b44e784da706111c29902.setContent(html_8a71e3f2c71043f0a8c38e244b8682dd);
+            
+
+            marker_c550cd077ed74c6dabc78724894c2e56.bindPopup(popup_5525652ff44b44e784da706111c29902);
+
+            
+        
+    
+
+            var marker_d850a145dd36492daae3a57835a9c6d4 = L.marker(
+                [26.91,75.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_31888a6d87374c889a4315d8dd662b2d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d850a145dd36492daae3a57835a9c6d4.setIcon(icon_31888a6d87374c889a4315d8dd662b2d);
+            
+    
+            var popup_1846177bf88046c89f72cf392918c063 = L.popup({maxWidth: '300'});
+
+            
+                var html_57e1cb09cb954c6b954a338796d3822b = $('<div id="html_57e1cb09cb954c6b954a338796d3822b" style="width: 100.0%; height: 100.0%;">Naturals Ice Cream, A 5, Ground Floor, Suryavanshi Pearl, Sarder Patel Marg, Near Chomu House Circle, C Scheme, Jaipur</div>')[0];
+                popup_1846177bf88046c89f72cf392918c063.setContent(html_57e1cb09cb954c6b954a338796d3822b);
+            
+
+            marker_d850a145dd36492daae3a57835a9c6d4.bindPopup(popup_1846177bf88046c89f72cf392918c063);
+
+            
+        
+    
+
+            var marker_e84739cc6c0942768831219b856019bf = L.marker(
+                [26.92,75.81],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_6305d00dbe2a4d9a9e69e9c2ff455630 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e84739cc6c0942768831219b856019bf.setIcon(icon_6305d00dbe2a4d9a9e69e9c2ff455630);
+            
+    
+            var popup_35a60591df0d4301b3dcd236bdac106d = L.popup({maxWidth: '300'});
+
+            
+                var html_4a4158cfa3f44ac886e8d5709102fc8f = $('<div id="html_4a4158cfa3f44ac886e8d5709102fc8f" style="width: 100.0%; height: 100.0%;">Jal Mahal Ice Cream Parlour, 85, MI Road, Jaipur</div>')[0];
+                popup_35a60591df0d4301b3dcd236bdac106d.setContent(html_4a4158cfa3f44ac886e8d5709102fc8f);
+            
+
+            marker_e84739cc6c0942768831219b856019bf.bindPopup(popup_35a60591df0d4301b3dcd236bdac106d);
+
+            
+        
+    
+
+            var marker_e294ce9d4173469da3c906d58d41c346 = L.marker(
+                [26.92,75.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_47d7ab1adda646cdb8f4b4caf0e8e885 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e294ce9d4173469da3c906d58d41c346.setIcon(icon_47d7ab1adda646cdb8f4b4caf0e8e885);
+            
+    
+            var popup_739e1219b57248879bbb0a8da7e45c76 = L.popup({maxWidth: '300'});
+
+            
+                var html_eddfbfff77584d0a9327a6398ce148bb = $('<div id="html_eddfbfff77584d0a9327a6398ce148bb" style="width: 100.0%; height: 100.0%;">Peacock, Hotel Pearl Palace, 51, Near Vidayakpuri Police Station, Gopalbari, Jaipur</div>')[0];
+                popup_739e1219b57248879bbb0a8da7e45c76.setContent(html_eddfbfff77584d0a9327a6398ce148bb);
+            
+
+            marker_e294ce9d4173469da3c906d58d41c346.bindPopup(popup_739e1219b57248879bbb0a8da7e45c76);
+
+            
+        
+    
+
+            var marker_aebf49797aeb4c7a8ac079ac5b093154 = L.marker(
+                [26.92,75.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_880ff1c5f9aa4916be0fb1c9b7c5167e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_aebf49797aeb4c7a8ac079ac5b093154.setIcon(icon_880ff1c5f9aa4916be0fb1c9b7c5167e);
+            
+    
+            var popup_abc46f8e82d341c3934e7bf21c30004a = L.popup({maxWidth: '300'});
+
+            
+                var html_0316df48e27b48eebd66ae027ee919be = $('<div id="html_0316df48e27b48eebd66ae027ee919be" style="width: 100.0%; height: 100.0%;">Peacock, Hotel Pearl Palace, 51, Near Vidayakpuri Police Station, Gopalbari, Jaipur</div>')[0];
+                popup_abc46f8e82d341c3934e7bf21c30004a.setContent(html_0316df48e27b48eebd66ae027ee919be);
+            
+
+            marker_aebf49797aeb4c7a8ac079ac5b093154.bindPopup(popup_abc46f8e82d341c3934e7bf21c30004a);
+
+            
+        
+    
+
+            var marker_9170c69d333c46608933355d59e0ee10 = L.marker(
+                [26.9,75.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_6f456791d56d49d6aa1420afee529cd1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9170c69d333c46608933355d59e0ee10.setIcon(icon_6f456791d56d49d6aa1420afee529cd1);
+            
+    
+            var popup_606efc139d8743e68e9a479455c98716 = L.popup({maxWidth: '300'});
+
+            
+                var html_5747a4488bd9469bb5ffb34225aac751 = $('<div id="html_5747a4488bd9469bb5ffb34225aac751" style="width: 100.0%; height: 100.0%;">Curious Life Coffee Roasters- Deer Park, P 25, Yudhister Marg, Opposite Deer Park, C Scheme, Jaipur</div>')[0];
+                popup_606efc139d8743e68e9a479455c98716.setContent(html_5747a4488bd9469bb5ffb34225aac751);
+            
+
+            marker_9170c69d333c46608933355d59e0ee10.bindPopup(popup_606efc139d8743e68e9a479455c98716);
+
+            
+        
+    
+
+            var marker_21594d658abe4e848b68d7075aebc066 = L.marker(
+                [26.91,75.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_b321f986f821437b87533c018add608b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_21594d658abe4e848b68d7075aebc066.setIcon(icon_b321f986f821437b87533c018add608b);
+            
+    
+            var popup_504f7a1223aa40b4abd498d035ee1f86 = L.popup({maxWidth: '300'});
+
+            
+                var html_6df62c95be664cc28f6c67ec417f7194 = $('<div id="html_6df62c95be664cc28f6c67ec417f7194" style="width: 100.0%; height: 100.0%;">Jaipur Dairy, Near Statue Circle, C Scheme, Jaipur</div>')[0];
+                popup_504f7a1223aa40b4abd498d035ee1f86.setContent(html_6df62c95be664cc28f6c67ec417f7194);
+            
+
+            marker_21594d658abe4e848b68d7075aebc066.bindPopup(popup_504f7a1223aa40b4abd498d035ee1f86);
+
+            
+        
+    
+
+            var marker_898e521392d04098a722c35a6ee1c81e = L.marker(
+                [26.93,75.82],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_6579bf2fe2544a7fa73f114efd689d6b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_898e521392d04098a722c35a6ee1c81e.setIcon(icon_6579bf2fe2544a7fa73f114efd689d6b);
+            
+    
+            var popup_463d7bc658e54c0db6c50075098c9e36 = L.popup({maxWidth: '300'});
+
+            
+                var html_1fa0dbcdc09a4f4d80d2e556bbd8c474 = $('<div id="html_1fa0dbcdc09a4f4d80d2e556bbd8c474" style="width: 100.0%; height: 100.0%;">Baradari - City Palace, The City Palace, Gate 2, Jaleb Chowk, Pink City, Jaipur</div>')[0];
+                popup_463d7bc658e54c0db6c50075098c9e36.setContent(html_1fa0dbcdc09a4f4d80d2e556bbd8c474);
+            
+
+            marker_898e521392d04098a722c35a6ee1c81e.bindPopup(popup_463d7bc658e54c0db6c50075098c9e36);
+
+            
+        
+    
+
+            var marker_e3d3e0f328f34c42aad001c769d49660 = L.marker(
+                [26.92,75.81],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_704a9ee61a6f4d7dad9b375de75e6bf2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e3d3e0f328f34c42aad001c769d49660.setIcon(icon_704a9ee61a6f4d7dad9b375de75e6bf2);
+            
+    
+            var popup_902660f17f694b4b902b0e0340b96d4e = L.popup({maxWidth: '300'});
+
+            
+                var html_64bd3b34820e44659e41c03dbec8a024 = $('<div id="html_64bd3b34820e44659e41c03dbec8a024" style="width: 100.0%; height: 100.0%;">Shreenath Lassiwala, 314, MI Road, Jaipur</div>')[0];
+                popup_902660f17f694b4b902b0e0340b96d4e.setContent(html_64bd3b34820e44659e41c03dbec8a024);
+            
+
+            marker_e3d3e0f328f34c42aad001c769d49660.bindPopup(popup_902660f17f694b4b902b0e0340b96d4e);
+
+            
+        
+    
+
+            var marker_90fe83a7861c481fbc7bf99e29f05591 = L.marker(
+                [26.93,75.83],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_8c5340b4e4604b0ab6664396389be673 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_90fe83a7861c481fbc7bf99e29f05591.setIcon(icon_8c5340b4e4604b0ab6664396389be673);
+            
+    
+            var popup_1803a07d1cf7415fbc03137a89f74898 = L.popup({maxWidth: '300'});
+
+            
+                var html_928c580c2bf04a7bb7784a030748b3d7 = $('<div id="html_928c580c2bf04a7bb7784a030748b3d7" style="width: 100.0%; height: 100.0%;">Heritage Above-1, Chandi Ki Taksal, Hawa Mahal Road, Pink City, Jaipur</div>')[0];
+                popup_1803a07d1cf7415fbc03137a89f74898.setContent(html_928c580c2bf04a7bb7784a030748b3d7);
+            
+
+            marker_90fe83a7861c481fbc7bf99e29f05591.bindPopup(popup_1803a07d1cf7415fbc03137a89f74898);
+
+            
+        
+    
+
+            var marker_69265ac89edb466695e1c626b33baed6 = L.marker(
+                [26.91,75.81],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_260e48aa9beb46ca9af320991a69e6f6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_69265ac89edb466695e1c626b33baed6.setIcon(icon_260e48aa9beb46ca9af320991a69e6f6);
+            
+    
+            var popup_0dcfb842afa5426291e58200fa313b19 = L.popup({maxWidth: '300'});
+
+            
+                var html_c43f0518bcde40c5b7ab34664d34f0b7 = $('<div id="html_c43f0518bcde40c5b7ab34664d34f0b7" style="width: 100.0%; height: 100.0%;">Brown Sugar-Bakers &amp; Cafe, Axis Mall, Ground Floor, Bhagwan Das Road, C Scheme, Jaipur</div>')[0];
+                popup_0dcfb842afa5426291e58200fa313b19.setContent(html_c43f0518bcde40c5b7ab34664d34f0b7);
+            
+
+            marker_69265ac89edb466695e1c626b33baed6.bindPopup(popup_0dcfb842afa5426291e58200fa313b19);
+
+            
+        
+    
+
+            var marker_299d21b90a1b4517ac41b36a97e0f4cc = L.marker(
+                [26.92,75.81],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_0b8e6b08a52740a69359d19cde32db32 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_299d21b90a1b4517ac41b36a97e0f4cc.setIcon(icon_0b8e6b08a52740a69359d19cde32db32);
+            
+    
+            var popup_2618739ddc704de2884092099259fa86 = L.popup({maxWidth: '300'});
+
+            
+                var html_9f05cd9c94b949d68e6c2edbfd7dbe37 = $('<div id="html_9f05cd9c94b949d68e6c2edbfd7dbe37" style="width: 100.0%; height: 100.0%;">Old Take Away - The Kabab Shop, 146-149, Subhash Corner, MI Road, Jaipur</div>')[0];
+                popup_2618739ddc704de2884092099259fa86.setContent(html_9f05cd9c94b949d68e6c2edbfd7dbe37);
+            
+
+            marker_299d21b90a1b4517ac41b36a97e0f4cc.bindPopup(popup_2618739ddc704de2884092099259fa86);
+
+            
+        
+    
+
+            var marker_9baf1e73fb5e420088424cdf1e14f2a7 = L.marker(
+                [26.9,75.81],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_15bc1357c2624bf79d881e368d8cc476 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9baf1e73fb5e420088424cdf1e14f2a7.setIcon(icon_15bc1357c2624bf79d881e368d8cc476);
+            
+    
+            var popup_d220d593775f4eeda0b23d844c325e1a = L.popup({maxWidth: '300'});
+
+            
+                var html_881616d03ae741648926ea6fcff43ce5 = $('<div id="html_881616d03ae741648926ea6fcff43ce5" style="width: 100.0%; height: 100.0%;">Bar Palladio Jaipur, Hotel Narain Niwas, Kanota Bagh, Narayan Singh Circle, Jaipur</div>')[0];
+                popup_d220d593775f4eeda0b23d844c325e1a.setContent(html_881616d03ae741648926ea6fcff43ce5);
+            
+
+            marker_9baf1e73fb5e420088424cdf1e14f2a7.bindPopup(popup_d220d593775f4eeda0b23d844c325e1a);
+
+            
+        
+    
+
+            var marker_530550b6379d4d78bb2e8feac765cfd9 = L.marker(
+                [26.92,75.83],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_33152fad9024407c8502b9373b81bfd5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_530550b6379d4d78bb2e8feac765cfd9.setIcon(icon_33152fad9024407c8502b9373b81bfd5);
+            
+    
+            var popup_35a47c5070154994ba88c5fc8823da63 = L.popup({maxWidth: '300'});
+
+            
+                var html_a4cdbc8eac2a4b40b28beb2ad0b281e5 = $('<div id="html_a4cdbc8eac2a4b40b28beb2ad0b281e5" style="width: 100.0%; height: 100.0%;">The Tattoo Cafe, 30, 3rd Floor, Opposite Hawa Mahal, Rang Bihari Temple, Badi Chaupar, Pink City, Jaipur</div>')[0];
+                popup_35a47c5070154994ba88c5fc8823da63.setContent(html_a4cdbc8eac2a4b40b28beb2ad0b281e5);
+            
+
+            marker_530550b6379d4d78bb2e8feac765cfd9.bindPopup(popup_35a47c5070154994ba88c5fc8823da63);
+
+            
+        
+    
+
+            var marker_587b07a19eaa455c8f107eda7fa90311 = L.marker(
+                [26.91,75.81],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_306fe18ac73847c685d4051c257c07a2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_587b07a19eaa455c8f107eda7fa90311.setIcon(icon_306fe18ac73847c685d4051c257c07a2);
+            
+    
+            var popup_8d5c898af1b0423ab297b5113def88f5 = L.popup({maxWidth: '300'});
+
+            
+                var html_36ce398ea4f44ed78bb0312868ea0674 = $('<div id="html_36ce398ea4f44ed78bb0312868ea0674" style="width: 100.0%; height: 100.0%;">Rasoda, 21, Sangram Colony, C Scheme, Jaipur</div>')[0];
+                popup_8d5c898af1b0423ab297b5113def88f5.setContent(html_36ce398ea4f44ed78bb0312868ea0674);
+            
+
+            marker_587b07a19eaa455c8f107eda7fa90311.bindPopup(popup_8d5c898af1b0423ab297b5113def88f5);
+
+            
+        
+    
+
+            var marker_ca68b8b721de42ad991a51c54c0cb6ff = L.marker(
+                [26.89,75.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_191995cab6844d3f95e46dc86e23a5c8 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ca68b8b721de42ad991a51c54c0cb6ff.setIcon(icon_191995cab6844d3f95e46dc86e23a5c8);
+            
+    
+            var popup_558c8d5975554361aa066425bdf4a579 = L.popup({maxWidth: '300'});
+
+            
+                var html_b6eaf0c5cead4bf095a35cebaff1707c = $('<div id="html_b6eaf0c5cead4bf095a35cebaff1707c" style="width: 100.0%; height: 100.0%;">Tapri Central, B4 E, 3rd Floor, Surana Jewellers, Opposite Central Park, C Scheme, Jaipur</div>')[0];
+                popup_558c8d5975554361aa066425bdf4a579.setContent(html_b6eaf0c5cead4bf095a35cebaff1707c);
+            
+
+            marker_ca68b8b721de42ad991a51c54c0cb6ff.bindPopup(popup_558c8d5975554361aa066425bdf4a579);
+
+            
+        
+    
+
+            var marker_4bc8fb6987274ea0892c86903d334c92 = L.marker(
+                [26.92,75.81],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_4eb46ed1cb104d90830811e12a3afab2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4bc8fb6987274ea0892c86903d334c92.setIcon(icon_4eb46ed1cb104d90830811e12a3afab2);
+            
+    
+            var popup_2b83d08209ce4ed6ada4498040318247 = L.popup({maxWidth: '300'});
+
+            
+                var html_d3701c6f9d04476f8379d4043a9e8840 = $('<div id="html_d3701c6f9d04476f8379d4043a9e8840" style="width: 100.0%; height: 100.0%;">Domino&#39;s Pizza, C 18, Silver Square Mall, Bhagwandas Marg, C Scheme, Jaipur</div>')[0];
+                popup_2b83d08209ce4ed6ada4498040318247.setContent(html_d3701c6f9d04476f8379d4043a9e8840);
+            
+
+            marker_4bc8fb6987274ea0892c86903d334c92.bindPopup(popup_2b83d08209ce4ed6ada4498040318247);
+
+            
+        
+    
+
+            var marker_0f5c5a4ffdee4c56b69f871ff62574f5 = L.marker(
+                [26.91,75.82],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_9bd27127d42c4c5ca6db389c035af128 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0f5c5a4ffdee4c56b69f871ff62574f5.setIcon(icon_9bd27127d42c4c5ca6db389c035af128);
+            
+    
+            var popup_bcc90cf5a288473fa05fe9969bf509df = L.popup({maxWidth: '300'});
+
+            
+                var html_e6131182816d4a81aff3069b6c0a8fe7 = $('<div id="html_e6131182816d4a81aff3069b6c0a8fe7" style="width: 100.0%; height: 100.0%;">On The Way, 5th Floor, Hotel While Lily, Diggy Palace Road, C Scheme, Jaipur</div>')[0];
+                popup_bcc90cf5a288473fa05fe9969bf509df.setContent(html_e6131182816d4a81aff3069b6c0a8fe7);
+            
+
+            marker_0f5c5a4ffdee4c56b69f871ff62574f5.bindPopup(popup_bcc90cf5a288473fa05fe9969bf509df);
+
+            
+        
+    
+
+            var marker_1f89eb6720b44c63a75ac39e21bac971 = L.marker(
+                [26.93,75.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_de551dd499cf41b5a4a3436e89d9b599 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1f89eb6720b44c63a75ac39e21bac971.setIcon(icon_de551dd499cf41b5a4a3436e89d9b599);
+            
+    
+            var popup_b309829181b1437a909b222d14264c30 = L.popup({maxWidth: '300'});
+
+            
+                var html_32dd1eb78c934838895a41ff43278254 = $('<div id="html_32dd1eb78c934838895a41ff43278254" style="width: 100.0%; height: 100.0%;">Melting Moments, B-9, Shiv Marg, Bani Park, Jaipur</div>')[0];
+                popup_b309829181b1437a909b222d14264c30.setContent(html_32dd1eb78c934838895a41ff43278254);
+            
+
+            marker_1f89eb6720b44c63a75ac39e21bac971.bindPopup(popup_b309829181b1437a909b222d14264c30);
+
+            
+        
+    
+
+            var marker_ee32e7c33fb24e32928c6b2589706309 = L.marker(
+                [26.91,75.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_7c7d29ca75704dc9a12ee03c03daaace = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ee32e7c33fb24e32928c6b2589706309.setIcon(icon_7c7d29ca75704dc9a12ee03c03daaace);
+            
+    
+            var popup_5a94c177c48e4677896e0bbe6b87e142 = L.popup({maxWidth: '300'});
+
+            
+                var html_3f784483e98542c9a6f96515975c1786 = $('<div id="html_3f784483e98542c9a6f96515975c1786" style="width: 100.0%; height: 100.0%;">Blue Tokai Coffee Roasters, 101, 1st Floor, Suryavanshi Pearl, A-5 Chomu House, Sardar Patel Marg, C Scheme, Jaipur</div>')[0];
+                popup_5a94c177c48e4677896e0bbe6b87e142.setContent(html_3f784483e98542c9a6f96515975c1786);
+            
+
+            marker_ee32e7c33fb24e32928c6b2589706309.bindPopup(popup_5a94c177c48e4677896e0bbe6b87e142);
+
+            
+        
+    
+
+            var marker_3a8d05fa34ac4c779ae56e853f4e8cce = L.marker(
+                [26.91,75.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_d85bd592a44c4d78a93b5cfe4b6e6f95 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3a8d05fa34ac4c779ae56e853f4e8cce.setIcon(icon_d85bd592a44c4d78a93b5cfe4b6e6f95);
+            
+    
+            var popup_3e17c1bfb54c4260a2af30c8a50f4ec2 = L.popup({maxWidth: '300'});
+
+            
+                var html_cb651e3f93af49c8a62cb00254a6d78e = $('<div id="html_cb651e3f93af49c8a62cb00254a6d78e" style="width: 100.0%; height: 100.0%;">Mad&#39;Ouk - Magic In Making, J 26, Subhash Marg, C Scheme, Jaipur</div>')[0];
+                popup_3e17c1bfb54c4260a2af30c8a50f4ec2.setContent(html_cb651e3f93af49c8a62cb00254a6d78e);
+            
+
+            marker_3a8d05fa34ac4c779ae56e853f4e8cce.bindPopup(popup_3e17c1bfb54c4260a2af30c8a50f4ec2);
+
+            
+        
+    
+
+            var marker_f17c137f28e64996b79d5b1ba485074f = L.marker(
+                [26.91,75.79],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_2aca8157c50745a5bf7a586d4563fb6e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f17c137f28e64996b79d5b1ba485074f.setIcon(icon_2aca8157c50745a5bf7a586d4563fb6e);
+            
+    
+            var popup_c270c91b90964c11a74c5ec01ea4ec70 = L.popup({maxWidth: '300'});
+
+            
+                var html_9454562715314384b3d839c99d604389 = $('<div id="html_9454562715314384b3d839c99d604389" style="width: 100.0%; height: 100.0%;">Home Café by Mr Beans, E 141 A, Sardar Patel Marg, C Scheme, Jaipur</div>')[0];
+                popup_c270c91b90964c11a74c5ec01ea4ec70.setContent(html_9454562715314384b3d839c99d604389);
+            
+
+            marker_f17c137f28e64996b79d5b1ba485074f.bindPopup(popup_c270c91b90964c11a74c5ec01ea4ec70);
+
+            
+        
+    
+
+            var marker_361e29b4837e41d18c32b4a878702c1e = L.marker(
+                [26.91,75.79],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_0655a09188214bb59da614b7908eb8dd = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_361e29b4837e41d18c32b4a878702c1e.setIcon(icon_0655a09188214bb59da614b7908eb8dd);
+            
+    
+            var popup_e9be2b80bf4d421d8d79ee200d848f3f = L.popup({maxWidth: '300'});
+
+            
+                var html_ac0e6ff4d42445c0aed9c88c7a2ab433 = $('<div id="html_ac0e6ff4d42445c0aed9c88c7a2ab433" style="width: 100.0%; height: 100.0%;">Rajwada Roof Top Restaurant, Hotel Kuhu Rajwada Palace, Barwara House Colony, Ajmer Road, Civil Lines, Jaipur</div>')[0];
+                popup_e9be2b80bf4d421d8d79ee200d848f3f.setContent(html_ac0e6ff4d42445c0aed9c88c7a2ab433);
+            
+
+            marker_361e29b4837e41d18c32b4a878702c1e.bindPopup(popup_e9be2b80bf4d421d8d79ee200d848f3f);
+
+            
+        
+    
+
+            var marker_5faefa392e1342eba511cd01582333b3 = L.marker(
+                [26.9,75.81],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_171eac549a2d44e8960f068c55eb5cd5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5faefa392e1342eba511cd01582333b3.setIcon(icon_171eac549a2d44e8960f068c55eb5cd5);
+            
+    
+            var popup_b86dc0823f7f485c9398d7688a002695 = L.popup({maxWidth: '300'});
+
+            
+                var html_0400eba5f610455088c564a08ba329ad = $('<div id="html_0400eba5f610455088c564a08ba329ad" style="width: 100.0%; height: 100.0%;">DOJO By Arisan Food Factory, Hotel Narain Niwas, Kanota Bagh, Near Press Club, Narayan Singh Circle, Jaipur</div>')[0];
+                popup_b86dc0823f7f485c9398d7688a002695.setContent(html_0400eba5f610455088c564a08ba329ad);
+            
+
+            marker_5faefa392e1342eba511cd01582333b3.bindPopup(popup_b86dc0823f7f485c9398d7688a002695);
+
+            
+        
+    
+
+            var marker_f53a9a84bbef4bacb26ed1cb7f48c6f6 = L.marker(
+                [26.93,75.84],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_ae65e8162f6544b28964ab4c81c04a2e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f53a9a84bbef4bacb26ed1cb7f48c6f6.setIcon(icon_ae65e8162f6544b28964ab4c81c04a2e);
+            
+    
+            var popup_81f3db822ff34f448208998bf62d490c = L.popup({maxWidth: '300'});
+
+            
+                var html_591e47513f04402e9fc7a097bfa6a141 = $('<div id="html_591e47513f04402e9fc7a097bfa6a141" style="width: 100.0%; height: 100.0%;">Samode Haveli Restaurant, Samode Haveli, Gangapole, Amer Road, Jaipur</div>')[0];
+                popup_81f3db822ff34f448208998bf62d490c.setContent(html_591e47513f04402e9fc7a097bfa6a141);
+            
+
+            marker_f53a9a84bbef4bacb26ed1cb7f48c6f6.bindPopup(popup_81f3db822ff34f448208998bf62d490c);
+
+            
+        
+    
+
+            var marker_fa00defa1e5e4ed5a54a2765fe38a018 = L.marker(
+                [26.9,75.83],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_7133bd422c7249f1bfbacbf1f8ff07b0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fa00defa1e5e4ed5a54a2765fe38a018.setIcon(icon_7133bd422c7249f1bfbacbf1f8ff07b0);
+            
+    
+            var popup_c730d3d86c674693aa90ca86da4550da = L.popup({maxWidth: '300'});
+
+            
+                var html_5e8c80d851b742ecbec54b4e5de9af33 = $('<div id="html_5e8c80d851b742ecbec54b4e5de9af33" style="width: 100.0%; height: 100.0%;">The Brewberry Cafe, 29, Govind Marg, Near Ramada Hotel, Raja Park, Jaipur</div>')[0];
+                popup_c730d3d86c674693aa90ca86da4550da.setContent(html_5e8c80d851b742ecbec54b4e5de9af33);
+            
+
+            marker_fa00defa1e5e4ed5a54a2765fe38a018.bindPopup(popup_c730d3d86c674693aa90ca86da4550da);
+
+            
+        
+    
+
+            var marker_d5f80ed7dce849139505887cf716c110 = L.marker(
+                [26.91,75.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_edd8ca1fc712428dab5b2674cb1e03a2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d5f80ed7dce849139505887cf716c110.setIcon(icon_edd8ca1fc712428dab5b2674cb1e03a2);
+            
+    
+            var popup_1cac8c65500a498ab4fb67f2f371b63b = L.popup({maxWidth: '300'});
+
+            
+                var html_9a627025da9e4b1082349c6b570a9433 = $('<div id="html_9a627025da9e4b1082349c6b570a9433" style="width: 100.0%; height: 100.0%;">The Rock, A 2, Sardar Patel Marg, C Scheme, Jaipur</div>')[0];
+                popup_1cac8c65500a498ab4fb67f2f371b63b.setContent(html_9a627025da9e4b1082349c6b570a9433);
+            
+
+            marker_d5f80ed7dce849139505887cf716c110.bindPopup(popup_1cac8c65500a498ab4fb67f2f371b63b);
+
+            
+        
+    
+
+            var marker_7daf3defa469411d862e9ddd0995f9e4 = L.marker(
+                [26.92,75.79],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_c7cf515752bd4aafbc0a9475f2ff5d60 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7daf3defa469411d862e9ddd0995f9e4.setIcon(icon_c7cf515752bd4aafbc0a9475f2ff5d60);
+            
+    
+            var popup_a1bc45f6803547928ece0917f1cbe7f9 = L.popup({maxWidth: '300'});
+
+            
+                var html_801a064848de4adab1b65685a6a39cd5 = $('<div id="html_801a064848de4adab1b65685a6a39cd5" style="width: 100.0%; height: 100.0%;">Peshawri - ITC Rajputana Hotel, ITC Rajputana Hotel, Palace Road, Gopalbari, Jaipur</div>')[0];
+                popup_a1bc45f6803547928ece0917f1cbe7f9.setContent(html_801a064848de4adab1b65685a6a39cd5);
+            
+
+            marker_7daf3defa469411d862e9ddd0995f9e4.bindPopup(popup_a1bc45f6803547928ece0917f1cbe7f9);
+
+            
+        
+    
+
+            var marker_e2eeb63d2fe644bc9592f10897a2af28 = L.marker(
+                [26.93,75.83],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_cb7fba8bdf034c32b5205c75d70a3c88 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e2eeb63d2fe644bc9592f10897a2af28.setIcon(icon_cb7fba8bdf034c32b5205c75d70a3c88);
+            
+    
+            var popup_0851ad0a058f429abfbf0f4da8454565 = L.popup({maxWidth: '300'});
+
+            
+                var html_0c3bbf3e36694e8a9c2de719c2e3ec13 = $('<div id="html_0c3bbf3e36694e8a9c2de719c2e3ec13" style="width: 100.0%; height: 100.0%;">Surabhi Restaurant &amp; Turban Museum, Behind Subhash Chowk Petrol Pump, Old Amer Road, Jaipur</div>')[0];
+                popup_0851ad0a058f429abfbf0f4da8454565.setContent(html_0c3bbf3e36694e8a9c2de719c2e3ec13);
+            
+
+            marker_e2eeb63d2fe644bc9592f10897a2af28.bindPopup(popup_0851ad0a058f429abfbf0f4da8454565);
+
+            
+        
+    
+
+            var marker_ff65413fc7bc42e5ba8fb386396f79d5 = L.marker(
+                [26.9,75.82],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_a73b6c7e0e7a40edb134620723357931 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ff65413fc7bc42e5ba8fb386396f79d5.setIcon(icon_a73b6c7e0e7a40edb134620723357931);
+            
+    
+            var popup_c2b3aec54200416fa1af51ffcd760502 = L.popup({maxWidth: '300'});
+
+            
+                var html_1b1ef8004787455d9bf52834d9decff3 = $('<div id="html_1b1ef8004787455d9bf52834d9decff3" style="width: 100.0%; height: 100.0%;">Chulha Choka, Gangwal Park, JLN Marg, Near SMS Medical College, Adarsh Nagar, Jaipur</div>')[0];
+                popup_c2b3aec54200416fa1af51ffcd760502.setContent(html_1b1ef8004787455d9bf52834d9decff3);
+            
+
+            marker_ff65413fc7bc42e5ba8fb386396f79d5.bindPopup(popup_c2b3aec54200416fa1af51ffcd760502);
+
+            
+        
+    
+
+            var marker_fa7689ae3f1645118a54e2f742d53c7d = L.marker(
+                [26.9,75.84],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_a71e05135f334c5685e5fce51e9b3513 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fa7689ae3f1645118a54e2f742d53c7d.setIcon(icon_a71e05135f334c5685e5fce51e9b3513);
+            
+    
+            var popup_52737b3cbc7b49aca6e85f59ea371fe4 = L.popup({maxWidth: '300'});
+
+            
+                var html_d462a52208eb43cea884f471b42fede1 = $('<div id="html_d462a52208eb43cea884f471b42fede1" style="width: 100.0%; height: 100.0%;">OTR 16, 4th Floor, Pink Square Mall, Adarsh Nagar, Jaipur</div>')[0];
+                popup_52737b3cbc7b49aca6e85f59ea371fe4.setContent(html_d462a52208eb43cea884f471b42fede1);
+            
+
+            marker_fa7689ae3f1645118a54e2f742d53c7d.bindPopup(popup_52737b3cbc7b49aca6e85f59ea371fe4);
+
+            
+        
+    
+
+            var marker_b112ac69003846349b652daa7805f33a = L.marker(
+                [26.92,75.79],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_dba0be79c9154de790ce3e09a6cc6181 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b112ac69003846349b652daa7805f33a.setIcon(icon_dba0be79c9154de790ce3e09a6cc6181);
+            
+    
+            var popup_d0b69155ad854328a73a9b2704ade4a5 = L.popup({maxWidth: '300'});
+
+            
+                var html_4d13e321a99a42119e1fb50f3f357e67 = $('<div id="html_4d13e321a99a42119e1fb50f3f357e67" style="width: 100.0%; height: 100.0%;">Jal Mahal - ITC Rajputana Hotel, ITC Rajputana Hotel, Palace Road, Gopalbari, Jaipur</div>')[0];
+                popup_d0b69155ad854328a73a9b2704ade4a5.setContent(html_4d13e321a99a42119e1fb50f3f357e67);
+            
+
+            marker_b112ac69003846349b652daa7805f33a.bindPopup(popup_d0b69155ad854328a73a9b2704ade4a5);
+
+            
+        
+    
+
+            var marker_09af7a6020444beb93c16cba82d48a63 = L.marker(
+                [26.89,75.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_44213730a97b479ea5bff151b67fcac7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_09af7a6020444beb93c16cba82d48a63.setIcon(icon_44213730a97b479ea5bff151b67fcac7);
+            
+    
+            var popup_f2edad60cc014874aec6c0dcebcc05af = L.popup({maxWidth: '300'});
+
+            
+                var html_3624e31a08224b738f869673390fe34a = $('<div id="html_3624e31a08224b738f869673390fe34a" style="width: 100.0%; height: 100.0%;">Doorbeen Restaurant, SB 154, 8th Floor, Ganga Heights, Tonk Road, Jaipur</div>')[0];
+                popup_f2edad60cc014874aec6c0dcebcc05af.setContent(html_3624e31a08224b738f869673390fe34a);
+            
+
+            marker_09af7a6020444beb93c16cba82d48a63.bindPopup(popup_f2edad60cc014874aec6c0dcebcc05af);
+
+            
+        
+    
+
+            var marker_375d96698b734d6ab7239b578de8f689 = L.marker(
+                [26.91,75.79],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_e78db5f8763c40138ba3b7d61e5c473a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_375d96698b734d6ab7239b578de8f689.setIcon(icon_e78db5f8763c40138ba3b7d61e5c473a);
+            
+    
+            var popup_26d1fcaade004b3b84e0d2bc2038d90e = L.popup({maxWidth: '300'});
+
+            
+                var html_3f48cf7d01db4a63afc57545ad004156 = $('<div id="html_3f48cf7d01db4a63afc57545ad004156" style="width: 100.0%; height: 100.0%;">On The House, E 145, Ramesh Marg, Behind Talwalkars, C Scheme, Jaipur</div>')[0];
+                popup_26d1fcaade004b3b84e0d2bc2038d90e.setContent(html_3f48cf7d01db4a63afc57545ad004156);
+            
+
+            marker_375d96698b734d6ab7239b578de8f689.bindPopup(popup_26d1fcaade004b3b84e0d2bc2038d90e);
+
+            
+        
+    
+
+            var marker_adf9482e815a4dbeac3edbd5daeb32f8 = L.marker(
+                [26.91,75.82],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_f3f93c6d6fbf4c9c95aeb2846e203a20 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_adf9482e815a4dbeac3edbd5daeb32f8.setIcon(icon_f3f93c6d6fbf4c9c95aeb2846e203a20);
+            
+    
+            var popup_a36f6d2d1c5d4b86a4951df047aab888 = L.popup({maxWidth: '300'});
+
+            
+                var html_d81dc4c4cbc640a59e2469a37d500ee3 = $('<div id="html_d81dc4c4cbc640a59e2469a37d500ee3" style="width: 100.0%; height: 100.0%;">Cafe Coffee Day, Albert Hall Museum, Ramniwas Bagh, Adarsh Nagar, Jaipur</div>')[0];
+                popup_a36f6d2d1c5d4b86a4951df047aab888.setContent(html_d81dc4c4cbc640a59e2469a37d500ee3);
+            
+
+            marker_adf9482e815a4dbeac3edbd5daeb32f8.bindPopup(popup_a36f6d2d1c5d4b86a4951df047aab888);
+
+            
+        
+    
+
+            var marker_237593674bb0446f9cc3aa70d71e1cd0 = L.marker(
+                [26.93,75.79],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_799daa04874b47e89213e6c907de5256 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_237593674bb0446f9cc3aa70d71e1cd0.setIcon(icon_799daa04874b47e89213e6c907de5256);
+            
+    
+            var popup_4a479ba9a5004bb595b9cd7824295b01 = L.popup({maxWidth: '300'});
+
+            
+                var html_a6debc5e567647ce9dfad737ed877eaa = $('<div id="html_a6debc5e567647ce9dfad737ed877eaa" style="width: 100.0%; height: 100.0%;">Rasa, Shahpura Hotels, D-257, Devi Marg, Bani Park, Jaipur</div>')[0];
+                popup_4a479ba9a5004bb595b9cd7824295b01.setContent(html_a6debc5e567647ce9dfad737ed877eaa);
+            
+
+            marker_237593674bb0446f9cc3aa70d71e1cd0.bindPopup(popup_4a479ba9a5004bb595b9cd7824295b01);
+
+            
+        
+    
+
+            var marker_161490f770314f6cb007f27aa37c5ddb = L.marker(
+                [26.92,75.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_1c4b153d88054ab3870308fa751a14bd = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_161490f770314f6cb007f27aa37c5ddb.setIcon(icon_1c4b153d88054ab3870308fa751a14bd);
+            
+    
+            var popup_5119a9e2427045e68345e0673da09ad7 = L.popup({maxWidth: '300'});
+
+            
+                var html_9aa3f8a306414f63a7b991a594df3890 = $('<div id="html_9aa3f8a306414f63a7b991a594df3890" style="width: 100.0%; height: 100.0%;">RJ45 The Chicken Company, Hotel Kalyan, 59, Hathroi Fort, Ajmer Road, Gopalbari, Jaipur</div>')[0];
+                popup_5119a9e2427045e68345e0673da09ad7.setContent(html_9aa3f8a306414f63a7b991a594df3890);
+            
+
+            marker_161490f770314f6cb007f27aa37c5ddb.bindPopup(popup_5119a9e2427045e68345e0673da09ad7);
+
+            
+        
+    
+
+            var marker_1536380ef2e940539d368559b4cc1735 = L.marker(
+                [26.92,75.79],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_d202b6b183fd44a68919c68d4135f6d3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1536380ef2e940539d368559b4cc1735.setIcon(icon_d202b6b183fd44a68919c68d4135f6d3);
+            
+    
+            var popup_28d358510a494bc8ac094eaabf6b10ac = L.popup({maxWidth: '300'});
+
+            
+                var html_f805909fd35a447c84067ef2189a53c2 = $('<div id="html_f805909fd35a447c84067ef2189a53c2" style="width: 100.0%; height: 100.0%;">Affetto Cafe, Hotel Abhiraj Palace, B-49-50, Kalwad Scheme, Gopalbari, Jaipur</div>')[0];
+                popup_28d358510a494bc8ac094eaabf6b10ac.setContent(html_f805909fd35a447c84067ef2189a53c2);
+            
+
+            marker_1536380ef2e940539d368559b4cc1735.bindPopup(popup_28d358510a494bc8ac094eaabf6b10ac);
+
+            
+        
+    
+
+            var marker_d8b34c1872374f069801e539443551b5 = L.marker(
+                [26.92,75.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_f22701e038824f99872ff9ee17e16716 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d8b34c1872374f069801e539443551b5.setIcon(icon_f22701e038824f99872ff9ee17e16716);
+            
+    
+            var popup_6b9fae72ba22483b9dcdd1ff60d9f989 = L.popup({maxWidth: '300'});
+
+            
+                var html_31b8235b1b96421bbf32c07755aaae90 = $('<div id="html_31b8235b1b96421bbf32c07755aaae90" style="width: 100.0%; height: 100.0%;">Rawat Mishthan Bhandar, Opposite Polovictory Cinema, Station Road, Sindhi Camp, Jaipur</div>')[0];
+                popup_6b9fae72ba22483b9dcdd1ff60d9f989.setContent(html_31b8235b1b96421bbf32c07755aaae90);
+            
+
+            marker_d8b34c1872374f069801e539443551b5.bindPopup(popup_6b9fae72ba22483b9dcdd1ff60d9f989);
+
+            
+        
+    
+
+            var marker_5a105dd3d4354a87a1179a20d2af0a3f = L.marker(
+                [26.92,75.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_52f11ce642ca4a06bbcca4d890f9aa86 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5a105dd3d4354a87a1179a20d2af0a3f.setIcon(icon_52f11ce642ca4a06bbcca4d890f9aa86);
+            
+    
+            var popup_3c646d57010f4f88b0343f527147e75a = L.popup({maxWidth: '300'});
+
+            
+                var html_fb5822e6e1ce40f58c0921081769ad19 = $('<div id="html_fb5822e6e1ce40f58c0921081769ad19" style="width: 100.0%; height: 100.0%;">The Moustache Headquarters, 7, Park House, Near Ganpati Plaza, MI Road, Jaipur</div>')[0];
+                popup_3c646d57010f4f88b0343f527147e75a.setContent(html_fb5822e6e1ce40f58c0921081769ad19);
+            
+
+            marker_5a105dd3d4354a87a1179a20d2af0a3f.bindPopup(popup_3c646d57010f4f88b0343f527147e75a);
+
+            
+        
+    
+
+            var marker_890d484ba2f74a66a85afbdc6ce02047 = L.marker(
+                [26.92,75.81],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_8996db56924e48439047ec60a410c898 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_890d484ba2f74a66a85afbdc6ce02047.setIcon(icon_8996db56924e48439047ec60a410c898);
+            
+    
+            var popup_c58533f1005344ef92aac369f9c1a000 = L.popup({maxWidth: '300'});
+
+            
+                var html_d3290aea681946c7af1ae3e42115fc0a = $('<div id="html_d3290aea681946c7af1ae3e42115fc0a" style="width: 100.0%; height: 100.0%;">Surya Mahal Restaurant, Mirza Ismail Road, Near Panch Batti, MI Road, Jaipur</div>')[0];
+                popup_c58533f1005344ef92aac369f9c1a000.setContent(html_d3290aea681946c7af1ae3e42115fc0a);
+            
+
+            marker_890d484ba2f74a66a85afbdc6ce02047.bindPopup(popup_c58533f1005344ef92aac369f9c1a000);
+
+            
+        
+    
+
+            var marker_615ee83003664a5487af78aec1285e38 = L.marker(
+                [26.9,75.82],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_c619d080ae9b4bd2b1e3a1e8a44d9efa = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_615ee83003664a5487af78aec1285e38.setIcon(icon_c619d080ae9b4bd2b1e3a1e8a44d9efa);
+            
+    
+            var popup_a1244d0aa17c4f2dbeb0697e342ea8a9 = L.popup({maxWidth: '300'});
+
+            
+                var html_eec589c043aa41029cdc177a05fa491e = $('<div id="html_eec589c043aa41029cdc177a05fa491e" style="width: 100.0%; height: 100.0%;">Caffe Palladio Jaipur, 100, Near Trimurti Circle, J.LN. Marg, Santha Bagh, Narayan Singh Circle, Jaipur</div>')[0];
+                popup_a1244d0aa17c4f2dbeb0697e342ea8a9.setContent(html_eec589c043aa41029cdc177a05fa491e);
+            
+
+            marker_615ee83003664a5487af78aec1285e38.bindPopup(popup_a1244d0aa17c4f2dbeb0697e342ea8a9);
+
+            
+        
+    
+
+            var marker_e93d5f9b52154f838356760e4b74a4a5 = L.marker(
+                [26.92,75.82],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_b2cacf0e44564c10824811ebfe483b00 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e93d5f9b52154f838356760e4b74a4a5.setIcon(icon_b2cacf0e44564c10824811ebfe483b00);
+            
+    
+            var popup_983b58efa8c048d1a8cf514eff43fef4 = L.popup({maxWidth: '300'});
+
+            
+                var html_96c79715c9194c46af416e9171b144cc = $('<div id="html_96c79715c9194c46af416e9171b144cc" style="width: 100.0%; height: 100.0%;">Bombay Chowpatty, Shop 165, Bapu Bazaar, Pink City, Jaipur</div>')[0];
+                popup_983b58efa8c048d1a8cf514eff43fef4.setContent(html_96c79715c9194c46af416e9171b144cc);
+            
+
+            marker_e93d5f9b52154f838356760e4b74a4a5.bindPopup(popup_983b58efa8c048d1a8cf514eff43fef4);
+
+            
+        
+    
+
+            var marker_ed4f34f4ea864a1293cef5fa6b6e75e0 = L.marker(
+                [26.89,75.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_9ff2c5043397497e9642e2489866b7d4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ed4f34f4ea864a1293cef5fa6b6e75e0.setIcon(icon_9ff2c5043397497e9642e2489866b7d4);
+            
+    
+            var popup_0ac1bd0378984e40a4d41e75e4e198c3 = L.popup({maxWidth: '300'});
+
+            
+                var html_ab31dda07b344bdb8c56f56808921869 = $('<div id="html_ab31dda07b344bdb8c56f56808921869" style="width: 100.0%; height: 100.0%;">Chaisa, 8 A, Satya Vihar, Behind Nagar Nagam Civil Lines Zones Ofice, Near Vidhan Sabha, Lal Kothi, Jaipur</div>')[0];
+                popup_0ac1bd0378984e40a4d41e75e4e198c3.setContent(html_ab31dda07b344bdb8c56f56808921869);
+            
+
+            marker_ed4f34f4ea864a1293cef5fa6b6e75e0.bindPopup(popup_0ac1bd0378984e40a4d41e75e4e198c3);
+
+            
+        
+    
+
+            var marker_b342c89e47c4494f98142aa42664c4d4 = L.marker(
+                [26.93,75.79],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_6003469351c94f069f22fdbd0d08f87e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b342c89e47c4494f98142aa42664c4d4.setIcon(icon_6003469351c94f069f22fdbd0d08f87e);
+            
+    
+            var popup_47912f7a1fdb465ab5f0d9b4d3ef812f = L.popup({maxWidth: '300'});
+
+            
+                var html_d7171f8fb3584c7fbcffaed8def40f3a = $('<div id="html_d7171f8fb3584c7fbcffaed8def40f3a" style="width: 100.0%; height: 100.0%;">Amaltas Cafe, Om Niwas Hotel, E-23, Kaushalya Path, Durga Marg, Near Durga Apartment, Bani Park, Jaipur</div>')[0];
+                popup_47912f7a1fdb465ab5f0d9b4d3ef812f.setContent(html_d7171f8fb3584c7fbcffaed8def40f3a);
+            
+
+            marker_b342c89e47c4494f98142aa42664c4d4.bindPopup(popup_47912f7a1fdb465ab5f0d9b4d3ef812f);
+
+            
+        
+    
+
+            var marker_c3f6fb6ae61e4d1badb5e8eeaa43ba7d = L.marker(
+                [26.9,75.81],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_bd6e5d9afcb64a4cb7ee966bb7596400 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c3f6fb6ae61e4d1badb5e8eeaa43ba7d.setIcon(icon_bd6e5d9afcb64a4cb7ee966bb7596400);
+            
+    
+            var popup_e84a207e5236402ea020d52debd4a528 = L.popup({maxWidth: '300'});
+
+            
+                var html_39d15a0fe49a47e9804fec0718346640 = $('<div id="html_39d15a0fe49a47e9804fec0718346640" style="width: 100.0%; height: 100.0%;">The Polo Bar - Rambagh Palace, Rambagh Palace, Bhawani Singh Road, C Scheme, Jaipur</div>')[0];
+                popup_e84a207e5236402ea020d52debd4a528.setContent(html_39d15a0fe49a47e9804fec0718346640);
+            
+
+            marker_c3f6fb6ae61e4d1badb5e8eeaa43ba7d.bindPopup(popup_e84a207e5236402ea020d52debd4a528);
+
+            
+        
+    
+
+            var marker_8d7d54c8a6d840d69a20c834b7870726 = L.marker(
+                [26.88,75.81],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_8c82965e590948f1a89297a63720cf36 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8d7d54c8a6d840d69a20c834b7870726.setIcon(icon_8c82965e590948f1a89297a63720cf36);
+            
+    
+            var popup_3b6585bb48ee4fd5af1209c1214d8f2f = L.popup({maxWidth: '300'});
+
+            
+                var html_02669bf6c228497aa7b4b54c102bbd99 = $('<div id="html_02669bf6c228497aa7b4b54c102bbd99" style="width: 100.0%; height: 100.0%;">Indian Coffee House, Jawahar Kala Kendra, JLN Marg, Near Tonk Road, Jaipur</div>')[0];
+                popup_3b6585bb48ee4fd5af1209c1214d8f2f.setContent(html_02669bf6c228497aa7b4b54c102bbd99);
+            
+
+            marker_8d7d54c8a6d840d69a20c834b7870726.bindPopup(popup_3b6585bb48ee4fd5af1209c1214d8f2f);
+
+            
+        
+    
+
+            var marker_07afca1dff294d06910a97f176cccd8f = L.marker(
+                [26.92,75.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_5d0b6ec5d09249de94cb6d42737958f5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_07afca1dff294d06910a97f176cccd8f.setIcon(icon_5d0b6ec5d09249de94cb6d42737958f5);
+            
+    
+            var popup_47ec4a48f85940fe91de39e1e7c7ae62 = L.popup({maxWidth: '300'});
+
+            
+                var html_da1d88eda21c499a9ef007d891263909 = $('<div id="html_da1d88eda21c499a9ef007d891263909" style="width: 100.0%; height: 100.0%;">Hightz - Hotel Man Singh, Hotel Man Singh, Sansar Chandra Road, Jaipur</div>')[0];
+                popup_47ec4a48f85940fe91de39e1e7c7ae62.setContent(html_da1d88eda21c499a9ef007d891263909);
+            
+
+            marker_07afca1dff294d06910a97f176cccd8f.bindPopup(popup_47ec4a48f85940fe91de39e1e7c7ae62);
+
+            
+        
+    
+
+            var marker_5eacf791ad0f4518be3ec35de59815bd = L.marker(
+                [26.92,75.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_904ab8ad47644e41ad7028dcdfa47160 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5eacf791ad0f4518be3ec35de59815bd.setIcon(icon_904ab8ad47644e41ad7028dcdfa47160);
+            
+    
+            var popup_d51f7cc67d5d41bbb132b11bc97b53d5 = L.popup({maxWidth: '300'});
+
+            
+                var html_2be0b37f4fb445798a083baef21c928f = $('<div id="html_2be0b37f4fb445798a083baef21c928f" style="width: 100.0%; height: 100.0%;">Aura, Sunder Palace Guest House, 46, Sanjay Marg, Hathroi Fort, Ajmer Road, Gopalbari, Jaipur</div>')[0];
+                popup_d51f7cc67d5d41bbb132b11bc97b53d5.setContent(html_2be0b37f4fb445798a083baef21c928f);
+            
+
+            marker_5eacf791ad0f4518be3ec35de59815bd.bindPopup(popup_d51f7cc67d5d41bbb132b11bc97b53d5);
+
+            
+        
+    
+
+            var marker_181fb3e85c54402a89fad82a0f42b2d4 = L.marker(
+                [26.93,75.79],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_7ff69625e7d644afaa5a7a756259a8cc = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_181fb3e85c54402a89fad82a0f42b2d4.setIcon(icon_7ff69625e7d644afaa5a7a756259a8cc);
+            
+    
+            var popup_0aa2ec2eb1964e408ce560e2efabce1f = L.popup({maxWidth: '300'});
+
+            
+                var html_2d44f88f453d41ea80593263c9056d1b = $('<div id="html_2d44f88f453d41ea80593263c9056d1b" style="width: 100.0%; height: 100.0%;">Om Niwas Bakery Line, Om Niwas Suite Hotel, E 23, Kaushalya Path, Durga Marg, Near Durga Apartments, Bani Park, Jaipur</div>')[0];
+                popup_0aa2ec2eb1964e408ce560e2efabce1f.setContent(html_2d44f88f453d41ea80593263c9056d1b);
+            
+
+            marker_181fb3e85c54402a89fad82a0f42b2d4.bindPopup(popup_0aa2ec2eb1964e408ce560e2efabce1f);
+
+            
+        
+    
+
+            var marker_f224cacbc16f4f62ab1447ce8d11bacc = L.marker(
+                [26.92,75.79],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_50366fd3435641b18ffff6825532f1d6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f224cacbc16f4f62ab1447ce8d11bacc.setIcon(icon_50366fd3435641b18ffff6825532f1d6);
+            
+    
+            var popup_45e1bb2ffc7b44deac850dba425ea66c = L.popup({maxWidth: '300'});
+
+            
+                var html_44cd02b7a2ff457c845fcd8ede01fd60 = $('<div id="html_44cd02b7a2ff457c845fcd8ede01fd60" style="width: 100.0%; height: 100.0%;">Kloud - Royal Orchid Central, Royal Orchid Central, A-26, A/2, Level 9, Jaisingh Highway, Bani Park, Jaipur</div>')[0];
+                popup_45e1bb2ffc7b44deac850dba425ea66c.setContent(html_44cd02b7a2ff457c845fcd8ede01fd60);
+            
+
+            marker_f224cacbc16f4f62ab1447ce8d11bacc.bindPopup(popup_45e1bb2ffc7b44deac850dba425ea66c);
+
+            
+        
+    
+
+            var marker_fd504435f2684c5cae13aea2cddb5513 = L.marker(
+                [26.9,75.79],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_338fc7805393412d818c0696068efbbe = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fd504435f2684c5cae13aea2cddb5513.setIcon(icon_338fc7805393412d818c0696068efbbe);
+            
+    
+            var popup_0ef1a170315040da9f502d97bf0cab2a = L.popup({maxWidth: '300'});
+
+            
+                var html_a8b259cfabeb403a99e7d61a7dc9d524 = $('<div id="html_a8b259cfabeb403a99e7d61a7dc9d524" style="width: 100.0%; height: 100.0%;">Monarch Restaurant - Holiday Inn Jaipur City Centre, Holiday Inn Jaipur City Centre, Commercial Plot 1, Sardar Patel Road, Bais Godam, Jaipur</div>')[0];
+                popup_0ef1a170315040da9f502d97bf0cab2a.setContent(html_a8b259cfabeb403a99e7d61a7dc9d524);
+            
+
+            marker_fd504435f2684c5cae13aea2cddb5513.bindPopup(popup_0ef1a170315040da9f502d97bf0cab2a);
+
+            
+        
+    
+
+            var marker_01df2bd40d2d426d8ba91879cbfc58fb = L.marker(
+                [26.92,75.79],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_e1b056cace9848ab84275b84c37faf3c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_01df2bd40d2d426d8ba91879cbfc58fb.setIcon(icon_e1b056cace9848ab84275b84c37faf3c);
+            
+    
+            var popup_9ad934a693a94d708ee0ff550e6499ff = L.popup({maxWidth: '300'});
+
+            
+                var html_f2587c713e724d15a8666fc5e1ee97f2 = $('<div id="html_f2587c713e724d15a8666fc5e1ee97f2" style="width: 100.0%; height: 100.0%;">Saltus Kitchen &amp; Bar, Devraj Niwas, Khasa Kothi Crossing, Gopalbari, Jaipur</div>')[0];
+                popup_9ad934a693a94d708ee0ff550e6499ff.setContent(html_f2587c713e724d15a8666fc5e1ee97f2);
+            
+
+            marker_01df2bd40d2d426d8ba91879cbfc58fb.bindPopup(popup_9ad934a693a94d708ee0ff550e6499ff);
+
+            
+        
+    
+
+            var marker_3eebd0b90afc440ab4cf0cc62e10b919 = L.marker(
+                [26.89,75.81],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_dca362c4752642e58987948ebbda248c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3eebd0b90afc440ab4cf0cc62e10b919.setIcon(icon_dca362c4752642e58987948ebbda248c);
+            
+    
+            var popup_3b771aad63f843a5acd954c18f43c846 = L.popup({maxWidth: '300'});
+
+            
+                var html_88f7786f913347d7bbd6ccc9e46f4acd = $('<div id="html_88f7786f913347d7bbd6ccc9e46f4acd" style="width: 100.0%; height: 100.0%;">Sanjay Restaurant - Egg Dee, B 18 &amp; 19, Janta Store, Bapu Nagar, Jaipur</div>')[0];
+                popup_3b771aad63f843a5acd954c18f43c846.setContent(html_88f7786f913347d7bbd6ccc9e46f4acd);
+            
+
+            marker_3eebd0b90afc440ab4cf0cc62e10b919.bindPopup(popup_3b771aad63f843a5acd954c18f43c846);
+
+            
+        
+    
+
+            var marker_4ef9684144f74aff907cf3437799d945 = L.marker(
+                [26.91,75.79],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_ed38db3c5a8d40198d068ce7dc86a700 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4ef9684144f74aff907cf3437799d945.setIcon(icon_ed38db3c5a8d40198d068ce7dc86a700);
+            
+    
+            var popup_b1aa1b9ca7a742ad8b60f5eb494aad0d = L.popup({maxWidth: '300'});
+
+            
+                var html_2d7221e97dce40a59c472b6c8d2fdb43 = $('<div id="html_2d7221e97dce40a59c472b6c8d2fdb43" style="width: 100.0%; height: 100.0%;">Dzurt Patisserie and Cafe, Achrol House, Jacob Road, Civil Lines, Jaipur</div>')[0];
+                popup_b1aa1b9ca7a742ad8b60f5eb494aad0d.setContent(html_2d7221e97dce40a59c472b6c8d2fdb43);
+            
+
+            marker_4ef9684144f74aff907cf3437799d945.bindPopup(popup_b1aa1b9ca7a742ad8b60f5eb494aad0d);
+
+            
+        
+    
+
+            var marker_b5f405cee2df4f79b688d99197bf6c90 = L.marker(
+                [26.96,75.84],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_59723e2fa32d4ef38419abac645e60e2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b5f405cee2df4f79b688d99197bf6c90.setIcon(icon_59723e2fa32d4ef38419abac645e60e2);
+            
+    
+            var popup_0bbaa4ce1d264d4a90f4af87b1c6c050 = L.popup({maxWidth: '300'});
+
+            
+                var html_2007fb7d704a436faf2f31bf1b8ee1ef = $('<div id="html_2007fb7d704a436faf2f31bf1b8ee1ef" style="width: 100.0%; height: 100.0%;">Mansagar - Trident Jaipur, Trident Jaipur, Opposite Jal Mahal, Amer Road, Jaipur</div>')[0];
+                popup_0bbaa4ce1d264d4a90f4af87b1c6c050.setContent(html_2007fb7d704a436faf2f31bf1b8ee1ef);
+            
+
+            marker_b5f405cee2df4f79b688d99197bf6c90.bindPopup(popup_0bbaa4ce1d264d4a90f4af87b1c6c050);
+
+            
+        
+    
+
+            var marker_ea4d1ff2291140a9b6f2c41c0fea4b19 = L.marker(
+                [26.91,75.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_0e777a6acd394681b60017f594c79d8a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ea4d1ff2291140a9b6f2c41c0fea4b19.setIcon(icon_0e777a6acd394681b60017f594c79d8a);
+            
+    
+            var popup_1e88ad42c998450c84eca3dec2e1fffb = L.popup({maxWidth: '300'});
+
+            
+                var html_81f652c0020e4d809ecd0dd2d00ccff5 = $('<div id="html_81f652c0020e4d809ecd0dd2d00ccff5" style="width: 100.0%; height: 100.0%;">Little Indian, KK Square, C Scheme, Jaipur</div>')[0];
+                popup_1e88ad42c998450c84eca3dec2e1fffb.setContent(html_81f652c0020e4d809ecd0dd2d00ccff5);
+            
+
+            marker_ea4d1ff2291140a9b6f2c41c0fea4b19.bindPopup(popup_1e88ad42c998450c84eca3dec2e1fffb);
+
+            
+        
+    
+
+            var marker_3df9067ebfa8489aa43979c9e4a92899 = L.marker(
+                [26.9,75.84],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_e01b8ca335d543b69eedd80fc0979f87 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3df9067ebfa8489aa43979c9e4a92899.setIcon(icon_e01b8ca335d543b69eedd80fc0979f87);
+            
+    
+            var popup_79863c0dcc244282990a01c4b29a9531 = L.popup({maxWidth: '300'});
+
+            
+                var html_7d27c1220a544c3c94ca966549aa39d4 = $('<div id="html_7d27c1220a544c3c94ca966549aa39d4" style="width: 100.0%; height: 100.0%;">OTR 16, 4th Floor, Pink Square Mall, Adarsh Nagar, Jaipur</div>')[0];
+                popup_79863c0dcc244282990a01c4b29a9531.setContent(html_7d27c1220a544c3c94ca966549aa39d4);
+            
+
+            marker_3df9067ebfa8489aa43979c9e4a92899.bindPopup(popup_79863c0dcc244282990a01c4b29a9531);
+
+            
+        
+    
+
+            var marker_591f15f0d3b04a939ada7a7cde0888de = L.marker(
+                [26.92,75.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_68072050bf1849bb8760aebf9e6f65da = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_591f15f0d3b04a939ada7a7cde0888de.setIcon(icon_68072050bf1849bb8760aebf9e6f65da);
+            
+    
+            var popup_9af85052bbeb480c8d200fa63645242d = L.popup({maxWidth: '300'});
+
+            
+                var html_03a3c7c645ef40e3b22115df38937356 = $('<div id="html_03a3c7c645ef40e3b22115df38937356" style="width: 100.0%; height: 100.0%;">Handi Fusion, Maya Mansion, Opposite GPO, MI Road, Jaipur</div>')[0];
+                popup_9af85052bbeb480c8d200fa63645242d.setContent(html_03a3c7c645ef40e3b22115df38937356);
+            
+
+            marker_591f15f0d3b04a939ada7a7cde0888de.bindPopup(popup_9af85052bbeb480c8d200fa63645242d);
+
+            
+        
+    
+
+            var marker_3a6cd0671ff344f7a5d2c010437ffefc = L.marker(
+                [26.9,75.79],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_918e54ca0e0f4380a7afca52d887491d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3a6cd0671ff344f7a5d2c010437ffefc.setIcon(icon_918e54ca0e0f4380a7afca52d887491d);
+            
+    
+            var popup_75c5534cb98144e28e3d6b9420e2b286 = L.popup({maxWidth: '300'});
+
+            
+                var html_038fda3cd6254b25ad3889246cd57f64 = $('<div id="html_038fda3cd6254b25ad3889246cd57f64" style="width: 100.0%; height: 100.0%;">Pizza Hut, Plot G-27, Crystal Palm Mall, Godown Circle, Bais Godam, Jaipur</div>')[0];
+                popup_75c5534cb98144e28e3d6b9420e2b286.setContent(html_038fda3cd6254b25ad3889246cd57f64);
+            
+
+            marker_3a6cd0671ff344f7a5d2c010437ffefc.bindPopup(popup_75c5534cb98144e28e3d6b9420e2b286);
+
+            
+        
+    
+
+            var marker_6f2e019ba31040c190a96b969b745e44 = L.marker(
+                [26.9,75.79],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_90e2059e92374e138d1534a55b7ca92b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6f2e019ba31040c190a96b969b745e44.setIcon(icon_90e2059e92374e138d1534a55b7ca92b);
+            
+    
+            var popup_5678189ca94844d59e0b6cdc43d9464e = L.popup({maxWidth: '300'});
+
+            
+                var html_58b9fde0943c479587df8257027cd5e4 = $('<div id="html_58b9fde0943c479587df8257027cd5e4" style="width: 100.0%; height: 100.0%;">Pizza Hut, Plot G-27, Crystal Palm Mall, Godown Circle, Bais Godam, Jaipur</div>')[0];
+                popup_5678189ca94844d59e0b6cdc43d9464e.setContent(html_58b9fde0943c479587df8257027cd5e4);
+            
+
+            marker_6f2e019ba31040c190a96b969b745e44.bindPopup(popup_5678189ca94844d59e0b6cdc43d9464e);
+
+            
+        
+    
+
+            var marker_06823124df464614b8f7371501d25173 = L.marker(
+                [26.89,75.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_11f8c301a5d5465289563ffba84cc0b2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_06823124df464614b8f7371501d25173.setIcon(icon_11f8c301a5d5465289563ffba84cc0b2);
+            
+    
+            var popup_7172b88f360e4e62a07a0dc2557a7efe = L.popup({maxWidth: '300'});
+
+            
+                var html_e65c9cc10ae342b0a268915d48d7a285 = $('<div id="html_e65c9cc10ae342b0a268915d48d7a285" style="width: 100.0%; height: 100.0%;">R 18, C 59, Janpath Marg, Behind Apex Mall, Lal Kothi, Jaipur</div>')[0];
+                popup_7172b88f360e4e62a07a0dc2557a7efe.setContent(html_e65c9cc10ae342b0a268915d48d7a285);
+            
+
+            marker_06823124df464614b8f7371501d25173.bindPopup(popup_7172b88f360e4e62a07a0dc2557a7efe);
+
+            
+        
+    
+
+            var marker_352a4ad4b45c400bb82bc700265522d6 = L.marker(
+                [26.9,75.84],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_7cbaaf68c4d84667889bef8b097e5f4d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_352a4ad4b45c400bb82bc700265522d6.setIcon(icon_7cbaaf68c4d84667889bef8b097e5f4d);
+            
+    
+            var popup_192ca44e6cd6422bbfbefc43798fb241 = L.popup({maxWidth: '300'});
+
+            
+                var html_791926eeaba04ae997cdcb8013c089a5 = $('<div id="html_791926eeaba04ae997cdcb8013c089a5" style="width: 100.0%; height: 100.0%;">Domino&#39;s Pizza, Food Court, 4th Floor, Pink Square Mall, Adarsh Nagar, Jaipur</div>')[0];
+                popup_192ca44e6cd6422bbfbefc43798fb241.setContent(html_791926eeaba04ae997cdcb8013c089a5);
+            
+
+            marker_352a4ad4b45c400bb82bc700265522d6.bindPopup(popup_192ca44e6cd6422bbfbefc43798fb241);
+
+            
+        
+    
+
+            var marker_92189cfd77864f6c86a2eacb337628e0 = L.marker(
+                [26.92,75.81],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_bbf729a9dbb1490189bffb66b60e4b0e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_92189cfd77864f6c86a2eacb337628e0.setIcon(icon_bbf729a9dbb1490189bffb66b60e4b0e);
+            
+    
+            var popup_601f7d8f1a23468ab35c516ab3f249dc = L.popup({maxWidth: '300'});
+
+            
+                var html_c010171a638345fea2ff3864bb8d7780 = $('<div id="html_c010171a638345fea2ff3864bb8d7780" style="width: 100.0%; height: 100.0%;">Niros, 319, Panch Batti, MI Road, Jaipur</div>')[0];
+                popup_601f7d8f1a23468ab35c516ab3f249dc.setContent(html_c010171a638345fea2ff3864bb8d7780);
+            
+
+            marker_92189cfd77864f6c86a2eacb337628e0.bindPopup(popup_601f7d8f1a23468ab35c516ab3f249dc);
+
+            
+        
+    
+
+            var marker_af458be172554736babc19f416de54a4 = L.marker(
+                [26.92,75.83],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_66e6b0b101184942b46d16560b3248db = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_af458be172554736babc19f416de54a4.setIcon(icon_66e6b0b101184942b46d16560b3248db);
+            
+    
+            var popup_cd245038a31d4a069bfd9effc80584ea = L.popup({maxWidth: '300'});
+
+            
+                var html_41cec25631534e21a5ee6c3ced0444b3 = $('<div id="html_41cec25631534e21a5ee6c3ced0444b3" style="width: 100.0%; height: 100.0%;">Brijwasi Sweet House and Bakery, 1, Ghee Walon Ka Rasta, Johari Bazaar, Pink City, Jaipur</div>')[0];
+                popup_cd245038a31d4a069bfd9effc80584ea.setContent(html_41cec25631534e21a5ee6c3ced0444b3);
+            
+
+            marker_af458be172554736babc19f416de54a4.bindPopup(popup_cd245038a31d4a069bfd9effc80584ea);
+
+            
+        
+    
+
+            var marker_36005b1d3b32460f9a2fec3f921e5777 = L.marker(
+                [26.91,75.79],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_eb3d95940dbe472a95a1ca805ff44f9b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_36005b1d3b32460f9a2fec3f921e5777.setIcon(icon_eb3d95940dbe472a95a1ca805ff44f9b);
+            
+    
+            var popup_759d530127d3434b8ca741ec14811ac9 = L.popup({maxWidth: '300'});
+
+            
+                var html_81b74e42bdad4bdeb0f316228610a691 = $('<div id="html_81b74e42bdad4bdeb0f316228610a691" style="width: 100.0%; height: 100.0%;">Rajwada Roof Top Restaurant, Hotel Kuhu Rajwada Palace, Barwara House Colony, Ajmer Road, Civil Lines, Jaipur</div>')[0];
+                popup_759d530127d3434b8ca741ec14811ac9.setContent(html_81b74e42bdad4bdeb0f316228610a691);
+            
+
+            marker_36005b1d3b32460f9a2fec3f921e5777.bindPopup(popup_759d530127d3434b8ca741ec14811ac9);
+
+            
+        
+    
+
+            var marker_5f9a3b632bda43debba6d4ed607f953e = L.marker(
+                [26.94,75.81],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_11bef2c7fb35436d86fc5aff5b94f124 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5f9a3b632bda43debba6d4ed607f953e.setIcon(icon_11bef2c7fb35436d86fc5aff5b94f124);
+            
+    
+            var popup_e87fa1c961ec4976b0ea1973cb548421 = L.popup({maxWidth: '300'});
+
+            
+                var html_ea10fd7cf2f44599b9d8751b8c24c000 = $('<div id="html_ea10fd7cf2f44599b9d8751b8c24c000" style="width: 100.0%; height: 100.0%;">Padao, Nahargarh Fort, Nahargarh, Amer, Jaipur</div>')[0];
+                popup_e87fa1c961ec4976b0ea1973cb548421.setContent(html_ea10fd7cf2f44599b9d8751b8c24c000);
+            
+
+            marker_5f9a3b632bda43debba6d4ed607f953e.bindPopup(popup_e87fa1c961ec4976b0ea1973cb548421);
+
+            
+        
+    
+
+            var marker_5c1f9a1212ae442bbb71dc1e32595f93 = L.marker(
+                [26.91,75.79],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_9d2cfe5293934579b6a819243f089e5e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5c1f9a1212ae442bbb71dc1e32595f93.setIcon(icon_9d2cfe5293934579b6a819243f089e5e);
+            
+    
+            var popup_db0a58b2007d457cbc353a7aab596c41 = L.popup({maxWidth: '300'});
+
+            
+                var html_852f01f67f884dfa9ce4355b34ddb9be = $('<div id="html_852f01f67f884dfa9ce4355b34ddb9be" style="width: 100.0%; height: 100.0%;">Dzurt Patisserie and Cafe, Achrol House, Jacob Road, Civil Lines, Jaipur</div>')[0];
+                popup_db0a58b2007d457cbc353a7aab596c41.setContent(html_852f01f67f884dfa9ce4355b34ddb9be);
+            
+
+            marker_5c1f9a1212ae442bbb71dc1e32595f93.bindPopup(popup_db0a58b2007d457cbc353a7aab596c41);
+
+            
+        
+    
+
+            var marker_9e22bbe88be24500998fb0734d303ec3 = L.marker(
+                [26.9,75.79],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_3b08d6cbff8246c59cc03d1b070037e3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9e22bbe88be24500998fb0734d303ec3.setIcon(icon_3b08d6cbff8246c59cc03d1b070037e3);
+            
+    
+            var popup_91b8f4f209ca462da578a8a3ea686cdf = L.popup({maxWidth: '300'});
+
+            
+                var html_2e23df5f016c4ec5ae97927d084e8fe2 = $('<div id="html_2e23df5f016c4ec5ae97927d084e8fe2" style="width: 100.0%; height: 100.0%;">Vij&#39;s Barbeque, Food Court, 3rd Floor, MGF Metropolitan Mall, Bais Godam, Jaipur</div>')[0];
+                popup_91b8f4f209ca462da578a8a3ea686cdf.setContent(html_2e23df5f016c4ec5ae97927d084e8fe2);
+            
+
+            marker_9e22bbe88be24500998fb0734d303ec3.bindPopup(popup_91b8f4f209ca462da578a8a3ea686cdf);
+
+            
+        
+    
+
+            var marker_23091ed75f9441e99d62d1f24ed41b85 = L.marker(
+                [26.92,75.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_378bfc036a624978851087147e85a56b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_23091ed75f9441e99d62d1f24ed41b85.setIcon(icon_378bfc036a624978851087147e85a56b);
+            
+    
+            var popup_8f7ff90513d14b3f9e2461a163b2270b = L.popup({maxWidth: '300'});
+
+            
+                var html_8cc017aa21f845aba4850e3241bd9633 = $('<div id="html_8cc017aa21f845aba4850e3241bd9633" style="width: 100.0%; height: 100.0%;">Taxi Chick-Inn, Shop 9, Near Sindhi Camp Bus Stand, Station Road, Sindhi Camp, Jaipur</div>')[0];
+                popup_8f7ff90513d14b3f9e2461a163b2270b.setContent(html_8cc017aa21f845aba4850e3241bd9633);
+            
+
+            marker_23091ed75f9441e99d62d1f24ed41b85.bindPopup(popup_8f7ff90513d14b3f9e2461a163b2270b);
+
+            
+        
+    
+
+            var marker_87b42291a03e49338659dd3084fe714e = L.marker(
+                [26.92,75.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_053d3b84bcac4857bb9a5bb7f2ddbd4b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_87b42291a03e49338659dd3084fe714e.setIcon(icon_053d3b84bcac4857bb9a5bb7f2ddbd4b);
+            
+    
+            var popup_f4c0d822ae5546d387f48ba39a34c5d4 = L.popup({maxWidth: '300'});
+
+            
+                var html_ca39e85e6a14426e8b47a3959c2f3ca1 = $('<div id="html_ca39e85e6a14426e8b47a3959c2f3ca1" style="width: 100.0%; height: 100.0%;">Peacock, Hotel Pearl Palace, 51, Near Vidayakpuri Police Station, Gopalbari, Jaipur</div>')[0];
+                popup_f4c0d822ae5546d387f48ba39a34c5d4.setContent(html_ca39e85e6a14426e8b47a3959c2f3ca1);
+            
+
+            marker_87b42291a03e49338659dd3084fe714e.bindPopup(popup_f4c0d822ae5546d387f48ba39a34c5d4);
+
+            
+        
+    
+
+            var marker_bfc0ecebfb924e26b54dfbbb8d20bc72 = L.marker(
+                [26.91,75.8],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_bf67ae5223d14569a3a847ece2cecdd2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bfc0ecebfb924e26b54dfbbb8d20bc72.setIcon(icon_bf67ae5223d14569a3a847ece2cecdd2);
+            
+    
+            var popup_17c862be6818463e90cb62519b97243b = L.popup({maxWidth: '300'});
+
+            
+                var html_6e29e74039834fceb0cdbe57abcab9fd = $('<div id="html_6e29e74039834fceb0cdbe57abcab9fd" style="width: 100.0%; height: 100.0%;">Corner House, F 31, Azad Marg, Ashok Nagar, C Scheme, Jaipur</div>')[0];
+                popup_17c862be6818463e90cb62519b97243b.setContent(html_6e29e74039834fceb0cdbe57abcab9fd);
+            
+
+            marker_bfc0ecebfb924e26b54dfbbb8d20bc72.bindPopup(popup_17c862be6818463e90cb62519b97243b);
+
+            
+        
+    
+
+            var marker_b5f8230e92d34d5591fa7874917990db = L.marker(
+                [26.88,75.81],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_2b0253f7e75243589241135f919a1ae6);
+            
+    
+
+                var icon_d2c87ad7d7284fceb317cd6336480a7b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b5f8230e92d34d5591fa7874917990db.setIcon(icon_d2c87ad7d7284fceb317cd6336480a7b);
+            
+    
+            var popup_109d4b2093544533a2492b177a661b07 = L.popup({maxWidth: '300'});
+
+            
+                var html_2ce15decc71945bc915e415f840eb418 = $('<div id="html_2ce15decc71945bc915e415f840eb418" style="width: 100.0%; height: 100.0%;">Indian Coffee House, Jawahar Kala Kendra, JLN Marg, Near Tonk Road, Jaipur</div>')[0];
+                popup_109d4b2093544533a2492b177a661b07.setContent(html_2ce15decc71945bc915e415f840eb418);
+            
+
+            marker_b5f8230e92d34d5591fa7874917990db.bindPopup(popup_109d4b2093544533a2492b177a661b07);
+
+            
+        
+</script>
